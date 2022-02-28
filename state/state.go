@@ -53,7 +53,7 @@ func MoveTo(MoveTo string) string {
 
 	if MoveTo == "HS og korn til Øst" && Status == HsState[5] {
 		Status = HsState[6]
-		fmt.Println(HsState[6] + "Du fikk alle over trygt og forlot reven, godt jobbet")
+		fmt.Println(HsState[6] + "Grattis! Reven er nå borte og dere er på den andre siden")
 		return HsState[6]
 	}
 

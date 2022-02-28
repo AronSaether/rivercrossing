@@ -1,6 +1,6 @@
 package main
 
-import "example.com/rivercrossing/state"
+import "github.com/AronSaether/rivercrossing/state"
 
 
 func main() {
@@ -11,5 +11,4 @@ func main() {
 	state.MoveTo("HS til Vest")
 	state.MoveTo("HS og korn til båt")
 	state.MoveTo("HS og korn til Øst")
-
 }
