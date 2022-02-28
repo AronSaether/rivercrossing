@@ -1,9 +1,15 @@
 package main
 
-import (
-   "fmt"
-)
+import "example.com/rivercrossing/state"
+
 
 func main() {
-   fmt.Println("hei");
+	state.MoveTo("Restart")
+	state.MoveTo("HS og kylling til båt")
+	state.MoveTo("HS og kylling til Øst")
+	state.MoveTo("HS til båt")
+	state.MoveTo("HS til Vest")
+	state.MoveTo("HS og korn til båt")
+	state.MoveTo("HS og korn til Øst")
+
 }
